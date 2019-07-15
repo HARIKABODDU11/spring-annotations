@@ -5,26 +5,19 @@ import org.springframework.beans.factory.annotation.Value;
 
 public class Actor {
 
-    private String name;
     private String gender;
-    private int age;
+    private  int age;
+    private String name;
 
 
-    @Value("Harika")
-    public void setName(String name) {
+    public Actor(String gender,  String name,int age) {
+        this.gender = gender;
+        this.age = age;
         this.name = name;
     }
-    @Value("female")
 
-    public void setGender(String gender) {
-        this.gender = gender;
-    }
 
-    @Value("12")
 
-    public void setAge(int age) {
-        this.age = age;
-    }
 
 
     public void display(){
@@ -35,3 +28,5 @@ public class Actor {
 
 
 }
+
+
