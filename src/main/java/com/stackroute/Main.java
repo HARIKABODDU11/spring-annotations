@@ -1,12 +1,10 @@
-
 package com.stackroute;
 
 import com.stackroute.domain.Config;
 import com.stackroute.domain.Movie;
-import org.springframework.beans.factory.BeanFactory;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-import org.springframework.context.annotation.Configuration;
+
 
 public class Main {
 
@@ -19,3 +17,8 @@ public class Main {
 
     }
 }
+
+
+
+
+

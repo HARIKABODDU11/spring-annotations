@@ -38,16 +38,9 @@ public class Config {
         return movie;
 
     }
-    @Bean
-    public Movie movie1(){
-        Movie movie1=new Movie();
-        movie1.setActor(actor1());
-        return movie1;
 
-    }
 
 }
-
 
 
 
