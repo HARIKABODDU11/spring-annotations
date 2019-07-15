@@ -31,13 +31,18 @@ public class Config {
     }
 
 
-    @Bean(name = {"movieA","movieB"})
-    @Scope("prototype")
-
+    @Bean
     public Movie movie(){
         Movie movie=new Movie();
         movie.setActor(actor());
         return movie;
+
+    }
+    @Bean
+    public Movie movie1(){
+        Movie movie1=new Movie();
+        movie1.setActor(actor1());
+        return movie1;
 
     }
 

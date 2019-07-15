@@ -1,3 +1,4 @@
+
 package com.stackroute;
 
 import com.stackroute.domain.Config;
@@ -10,15 +11,10 @@ import org.springframework.context.annotation.Configuration;
 public class Main {
 
     public static void main(String[] args) {
+        //Dependency Injection using Application Context
         ApplicationContext context = new AnnotationConfigApplicationContext(Config.class);
-        Movie movie = context.getBean("movieA", Movie.class);
+        Movie movie = context.getBean("movie", Movie.class);
         movie.displayActor();
-
-
-
-        Movie movie1 = context.getBean("movieB", Movie.class);
-        movie1.displayActor();
-        System.out.println(movie == movie1);
 
 
     }
