@@ -38,12 +38,6 @@ public class Config {
         return movie;
 
     }
-    @Bean
-    public BeanLifeCycleDemo beanLifeCycleDemo(){
-        BeanLifeCycleDemo beanLifeCycleDemo=new BeanLifeCycleDemo();
-        return beanLifeCycleDemo;
-    }
-
 
 }
 
