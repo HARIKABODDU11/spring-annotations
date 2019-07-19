@@ -4,6 +4,7 @@ package com.stackroute.domain;
 
 
 public class Actor {
+    //Actor has two String properties, name and gender, and an age property of type int
 
     private String gender;
     private  int age;
