@@ -10,6 +10,7 @@ import org.springframework.context.annotation.Configuration;
 public class Main {
 
     public static void main(String[] args) {
+        //intialize application context with config class
         ApplicationContext context = new AnnotationConfigApplicationContext(Config.class);
         Movie movie = context.getBean("movieA", Movie.class);
         movie.displayActor();
