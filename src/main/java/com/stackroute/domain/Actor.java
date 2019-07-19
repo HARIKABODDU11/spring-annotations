@@ -4,6 +4,7 @@ package com.stackroute.domain;
 import org.springframework.beans.factory.annotation.Value;
 
 public class Actor {
+    //An Actor can be initialized with the three properties via the corresponding setter methods
 
     private String gender;
     private  int age;
