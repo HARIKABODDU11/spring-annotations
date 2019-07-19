@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Scope;
 @ComponentScan(basePackages = "com.stackroute.domain")
 
 public class Config {
-
+ //bean creation for actor
     @Bean
     public Actor actor(){
 
@@ -30,7 +30,7 @@ public class Config {
 
     }
 
-
+//bean creation for movie
     @Bean
     public Movie movie(){
         Movie movie=new Movie();
