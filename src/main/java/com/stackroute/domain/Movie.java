@@ -11,6 +11,7 @@ import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationContextAware;
 @Qualifier("movie")
+//Implement ApplicationContextAware, BeanFactoryAware, BeanNameAware in the Movie class and print out their results.
 
 public class Movie implements ApplicationContextAware, BeanFactoryAware, BeanNameAware {
 
