@@ -8,6 +8,7 @@ import org.springframework.context.annotation.Configuration;
 @ComponentScan(basePackages = "com.stackroute.domain")
 
 public class Config {
+    //bean creation for actor class
 
     @Bean
     public Actor actor(){
@@ -15,6 +16,7 @@ public class Config {
 
         return actor;
     }
+    //bean creation for movie class
     @Bean
 
     public Movie movie(){
