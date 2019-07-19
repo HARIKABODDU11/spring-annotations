@@ -8,6 +8,7 @@ import org.springframework.beans.factory.annotation.Qualifier;
 
 
 public class Movie {
+    //Movie “has a” Actor that can be initialized via the corresponding setter method
 
     Actor actor;
 
