@@ -5,8 +5,10 @@ import org.springframework.beans.factory.config.BeanPostProcessor;
 import org.springframework.stereotype.Component;
 
 @Component
-
+//BeanPostProcessorDemoBean class in com.stackroute.demo that implements BeanPostProcessor
 public class BeanPostProcessorDemoBean implements BeanPostProcessor {
+    
+    //Override the required methods to print out messages
 
     @Override
     public Object postProcessBeforeInitialization(Object bean, String beanName) throws BeansException {
